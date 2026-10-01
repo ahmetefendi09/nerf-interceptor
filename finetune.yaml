@@ -1,0 +1,6 @@
+path: ./dataset_finetune
+train: images/train
+val: images/val
+
+names:
+  0: dart

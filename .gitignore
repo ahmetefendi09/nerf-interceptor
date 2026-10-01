@@ -1,0 +1,25 @@
+# Python / Sanal Ortam
+venv/
+__pycache__/
+*.pyc
+
+# C++ Build Dosyaları
+build/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.bin.cmake
+Makefile
+
+# Büyük Ağırlık Dosyaları ve Geçici Çıktılar (Opsiyonel: best_openvino_model kalsın)
+runs/**/weights/*.pt
+runs/**/weights/*.onnx
+runs/**/train/
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# VS Code / IDE
+.vscode/
+.idea/

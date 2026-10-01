@@ -1,0 +1,24 @@
+description: Ultralytics best model trained on finetune.yaml
+author: Ultralytics
+date: '2026-10-01T19:05:50.872028+03:00'
+version: 8.4.170
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: dart
+args:
+  data: null
+  batch: 1
+  fraction: 1.0
+  quantize: 16
+  nms: null
+  dynamic: false
+channels: 3
+end2end: false
