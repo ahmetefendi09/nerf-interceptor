@@ -1,0 +1,9 @@
+# Python scriptlerini dil sayımından tamamen çıkar
+scripts/** linguist-vendored
+*.py linguist-vendored
+
+# C++ kaynaklarını ve başlıklarını birincil dil olarak işaretle
+src/** linguist-detectable=true
+src/** linguist-language=C++
+CMakeLists.txt linguist-detectable=true
+CMakeLists.txt linguist-language=CMake
