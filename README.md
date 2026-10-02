@@ -1,4 +1,4 @@
-# Nerf Interceptor 🎯
+# Nerf Interceptor 
 
 High-performance, ultra-low latency real-time Nerf dart tracking and targeting system powered by fine-tuned YOLOv8 and Intel OpenVINO.
 
